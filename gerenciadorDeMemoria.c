@@ -31,3 +31,10 @@ void exibir_memoria(Memoria *memoria) {
     }
     printf("\n");
 }
+
+int main() {
+    Memoria memoria;
+    inicializar_memoria(&memoria);
+    printf("Memória inicializada com sucesso!\n");
+    return 0;
+}
